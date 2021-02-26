@@ -5,11 +5,11 @@ const buzz = 'Buzz';
 function fizzbuzz(number) {
   let res = number;
   if (number % 15 === 0) {
-    res = 'FizzBuzz';
+    res = fizz + buzz;
   } else if (number % 5 === 0) {
-    res = 'Buzz';
+    res = buzz;
   } else if (number % 3 === 0) {
-    res = 'Fizz';
+    res = fizz;
   }
   return res;
 }
